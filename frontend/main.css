@@ -1,0 +1,174 @@
+body {
+  background-color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  margin-top: 4px;
+}
+
+.customer_section {
+  background-color: #b3ffff;
+}
+
+.pt-4 {
+  padding-top: 4rem;
+}
+
+.pl {
+  padding-left: 8rem;
+}
+
+.row {
+  padding: 0px 96px;
+  display: flex;
+  flex-direction: row;
+}
+
+.col-4 {
+  width: 33.3%;
+}
+
+.box {
+  background-color: white;
+  margin: 30px;
+  /* border-radius: 20px; */
+}
+
+.profile_section {
+  display: flex;
+  padding: 40px;
+}
+
+.profile_img {
+  width: 25%;
+  border-radius: 25px;
+}
+
+.name_section {
+  height: 25%;
+  display: block;
+  margin-left: 10px;
+  line-height: 0px;
+}
+
+h4 {
+  font-weight: lighter;
+  font-size: smaller;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+}
+
+.tweet_section {
+  margin: 0px 15px 0px 30px;
+  padding-bottom: 10px;
+  text-align: left;
+  font-size: 14.5px;
+}
+
+.footer_section {
+  display: flex;
+}
+
+.love_icon {
+  width: 37px;
+  height: 37px;
+  margin-left: 25px;
+}
+
+p {
+  font-size: 13px;
+}
+
+.date_section {
+  margin-left: auto;
+  margin-right: 40px;
+}
+
+.box_price {
+  display: block;
+  width: 40%;
+  align-items: center;
+  margin: auto;
+  margin-top: 48px;
+}
+
+.header_section {
+  display: block;
+  text-align: center;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+.bigger {
+  font-size: larger;
+}
+
+.lighter {
+  font-weight: 100;
+}
+
+.color {
+  background-color: #ecd9c6;
+  border: 1px solid lightblue;
+  margin: auto;
+  padding: 25px;
+}
+
+.amout_section {
+  display: block;
+  line-height: 30px;
+}
+
+.big {
+  font-size: 70px;
+}
+
+.good_section {
+  display: flex;
+  flex-direction: row;
+  margin-top: 13px;
+}
+
+.good_icon {
+  width: 20px;
+  height: 20px;
+}
+
+h6 {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 20px;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+.button {
+  display: flex;
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #1a8cff;
+  justify-content: center;
+}
+
+.icon_btn {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+.btn_text {
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0px;
+  margin-left: 10px;
+}

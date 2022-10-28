@@ -1,5 +1,7 @@
 function filterList(arr) {
- 
- }
+  const filteredList = arr.filter((element) => typeof element === "number");
 
-  module.exports =filterList
+  return filteredList;
+}
+
+module.exports = filterList;
