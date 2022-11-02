@@ -8,15 +8,16 @@ body {
 }
 
 .customer_section {
-  background-color: #b3ffff;
+  background-color: #c6f2f9;
 }
 
 .pt-4 {
   padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .pl {
-  padding-left: 8rem;
+  padding-left: 6rem;
 }
 
 .row {
@@ -32,12 +33,12 @@ body {
 .box {
   background-color: white;
   margin: 30px;
-  /* border-radius: 20px; */
+  border-radius: 5px;
+  padding: 30px;
 }
 
 .profile_section {
   display: flex;
-  padding: 40px;
 }
 
 .profile_img {
@@ -52,32 +53,40 @@ body {
   line-height: 0px;
 }
 
+.username {
+  font-weight: 330;
+  line-height: 0.2;
+  font-size: 20px;
+}
+
 h4 {
   font-weight: lighter;
   font-size: smaller;
 }
 
 .icon {
-  width: 20px;
-  height: 20px;
-  margin-left: auto;
+  width: 30px;
+  height: 30px;
+  margin: auto 0px auto auto;
 }
 
 .tweet_section {
-  margin: 0px 15px 0px 30px;
-  padding-bottom: 10px;
-  text-align: left;
+  /* margin: 0px 15px 0px 30px; */
+  padding: 30px 0px;
+  /* text-align: left; */
   font-size: 14.5px;
+  font-weight: 200;
 }
 
 .footer_section {
   display: flex;
+  justify-content: space-between;
 }
 
 .love_icon {
   width: 37px;
   height: 37px;
-  margin-left: 25px;
+  /* margin-left: 25px; */
 }
 
 p {
@@ -86,7 +95,7 @@ p {
 
 .date_section {
   margin-left: auto;
-  margin-right: 40px;
+  /* margin-right: 40px; */
 }
 
 .box_price {
@@ -154,7 +163,7 @@ h6 {
   width: 100%;
   padding: 15px;
   border-radius: 10px;
-  background-color: #1a8cff;
+  background-color: #3498db;
   justify-content: center;
 }
 
